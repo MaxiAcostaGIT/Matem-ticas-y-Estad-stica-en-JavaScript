@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulas Basicas</title>
+</head>
+<body>
+    <h1>Formulas Basicas con JavaScript</h1>
+    <p>Si deseas volver al menu principal, toca aqui: <a href="../../index.html">Menu Principal</a></p>
+
+    <div  id="Cuadrado">
+        <h2>
+            Calculadora de un Cuadrado
+        </h2>
+        <p>Cuanto mide cada lado de tu cuadrado?</p>
+        <input type="number" id="ladoCuadrado" placeholder="Lado de tu Cuadrado">
+        <button onclick="calcularCuadrado()">Calcular Perimetro</button>
+        <p id="resultadoCuadrado"></p>
+    </div>
+        
+    <div id="Triangulo">
+        <h2>
+            Calculadora de un Triangulo
+        </h2>
+        <p>Cuanto mide cada lado de tu triangulo?</p>
+        <input type="number" id="ladoTriangulo1" placeholder="Primer Lado">
+        <input type="number" id="ladoTriangulo2" placeholder="Segundo Lado">
+        <input type="number" id="ladoTrianguloBase" placeholder="Tercer Lado">
+        <button id="botonResultadoTriangulo">Calcular Perimetro</button>
+        <p id="resultadoTriangulo"></p>
+    </div>
+        
+    <div id="Circulo">
+        <h2>
+            Calculadora de un Circulo
+        </h2>
+        <p>Cuanto mide el radio de tu circulo?</p>
+        <input type="number" id="radioCirculo" placeholder="Radio de tu Circulo">
+        <button id="botonResultadoCirculo">Calcular Perimetro</button>
+        <p id="resultadoCirculo"></p>
+    </div>
+        
+
+    <script src="./formulas.js"></script>
+</body>
+</html>
